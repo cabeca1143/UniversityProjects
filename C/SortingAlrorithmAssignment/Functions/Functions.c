@@ -21,10 +21,10 @@ List* GetListWithRandomElements(int size)
 List** GetThreeLists(int size)
 {
     List** lists = malloc(sizeof(List) * 3);
-	for (int i = 0; i < 3; i++)
-	{
+    for (int i = 0; i < 3; i++)
+    {
         lists[i] = GetListWithRandomElements(size);
-	}
+    }
     return lists;
 }
 
