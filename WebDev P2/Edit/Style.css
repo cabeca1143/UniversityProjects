@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(to bottom right, #000000, #333333);
+    color: #fff;
+    min-height: 100vh;
+}
+.edit-card {
+    background-color: #1a1a1a;
+    border: 1px solid #444;
+}
